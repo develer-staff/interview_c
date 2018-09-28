@@ -1,5 +1,9 @@
 #include <iostream>
 
+/**
+ * This is a noop function. It should be optimized away by all reasonable
+ * compilers
+ */
 float mynop(float val) {
 	return val;
 }
